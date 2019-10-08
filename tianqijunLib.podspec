@@ -62,11 +62,11 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "8.0"
+  spec.platform     = :ios
+  spec.platform     = :ios, "8.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "8.0"
+  spec.ios.deployment_target = "8.0"
   # 
 
 
@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "tianqijunLib", "tianqijunLib/**/*.{h,m}"
-  # spec.public_header_files = "tianqijunLib/**/*.h"
+  spec.public_header_files = "WETianqiController.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -99,7 +99,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # spec.resource  = "icon.png"
+   spec.resource  = "HomeImage.bundle"
   # spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -112,7 +112,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+ # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
