@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = 'tianqijunLib'
+  s.name     = 'WeatherSDK'
   s.version  = '0.0.1'
   s.license  = 'MIT'
   s.platform     = :ios  
