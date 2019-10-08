@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.public_header_files = 'WeatherSDK/tianqijunLib/*'
   s.source_files = 'WeatherSDK/tianqijunLib/*'
-  s.resource  = 'tianqijunLib/lib/HomeImage.bundle'
+  s.resource  = 'WeatherSDK/tianqijunLib/lib/HomeImage.bundle'
   s.frameworks   = 'UIKit','Foundation'
 end
