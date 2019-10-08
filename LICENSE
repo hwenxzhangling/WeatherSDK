@@ -1,0 +1,15 @@
+copyright
+
+Create a new file and give it the name of the CNAME you want (in my case it's rem.json). This file contains a JSON object containing at least a copyright property:
+
+{
+  "copyright": “天气网, https://tianqi.com"
+}
+
+Means I can now link to https://rem.mit-license.org and it will show my license name (note that the date will always show the current year).
+
+You can also use an array to hold multiple copyright holders:
+
+{
+  "copyright": ["天气网"]
+}
