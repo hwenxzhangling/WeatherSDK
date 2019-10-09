@@ -4,6 +4,7 @@ download WeatherSDK-mater 集成，
 
 or
 
+~~~
 ### Podfile ###
 
 To integrate tianqijunLib into your Xcode project using CocoaPods, specify it in your Podfile:
@@ -16,6 +17,7 @@ target 'TargetName' do
 pod 'tianqijunLib' 
 end
 ```
+~~~
 
 ### Requirements: ###
 
