@@ -2,7 +2,7 @@ download WeatherSDK-mater 集成，
 
 or
 
-Podfile
+####Podfile####
 
 To integrate tianqijunLib into your Xcode project using CocoaPods, specify it in your Podfile:
 
@@ -15,15 +15,15 @@ end
 
 Requirements:
 
-iOS8.0 +
+###$iOS8.0 +####
 
-case code:
+######case code:######
 
-   WETianqiController *controlltr = [[WETianqiController alloc] init];
+  ' WETianqiController *controlltr = [[WETianqiController alloc] init];
    [controlltr fetchWeatherDataLocationLat:43.8720870000 LocationLng:125.3247140000];
-   [self presentViewController:controlltr animated:YES completion:NULL];
+   [self presentViewController:controlltr animated:YES completion:NULL];'
 
-License:
+####License:####
 
 WeatherSDK is released under the MIT license. See LICENSE for details.
 
