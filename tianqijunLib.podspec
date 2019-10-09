@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'tianqijunLib'
-  s.version  = '0.0.4'
+  s.version  = '0.0.5'
   s.license  = 'MIT'
   s.platform     = :ios  
   s.platform     = :ios, '8.0'  
@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.authors  = { 'tianqijun' => 'https://github.com/hwenxzhangling' }
   s.source   = { :git => 'https://github.com/hwenxzhangling/WeatherSDK.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
-  s.public_header_files = 'tianqijunLib/lib/**/*.h'
   s.source_files = 'tianqijunLib/**/*.{h,m,mm,a}'
   s.resource  = 'tianqijunLib/lib/HomeImage.bundle'
   s.frameworks   = 'UIKit','Foundation'
