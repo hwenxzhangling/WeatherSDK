@@ -1,3 +1,7 @@
+download WeatherSDK-mater 集成，
+
+or
+
 Podfile
 
 To integrate tianqijunLib into your Xcode project using CocoaPods, specify it in your Podfile:
@@ -6,7 +10,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
 target 'TargetName' do
-pod 'WeatherSDK'
+pod 'tianqijunLib'
 end
 
 Requirements:
