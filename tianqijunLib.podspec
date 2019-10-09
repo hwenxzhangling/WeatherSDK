@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
   s.authors  = { 'tianqijun' => 'https://github.com/hwenxzhangling' }
   s.source   = { :git => 'https://github.com/hwenxzhangling/WeatherSDK.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
-  s.source_files = 'tianqijunLib/lib/**/*.{h,m,mm}'
+  s.public_header_files = 'tianqijunLib/lib/**/*.h'
+  s.source_files = 'tianqijunLib/**/*.{h,m,mm}'
   s.resource  = 'tianqijunLib/lib/HomeImage.bundle'
   s.frameworks   = 'UIKit','Foundation'
 end
