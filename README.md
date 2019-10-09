@@ -4,6 +4,7 @@ download WeatherSDK-mater 集成，
 
 or
 
+~~
 
 ### Podfile ###
 
@@ -14,10 +15,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 ``` 
 platform :ios, '8.0'
 target 'TargetName' do
-~~~ pod 'tianqijunLib' ~~~ 
+pod 'tianqijunLib'
 end
 ```
 
+~~
 
 ### Requirements: ###
 
